@@ -13,10 +13,10 @@ namespace DesignPatterns.Behavioral.Visitor
         public void Run()
         {
             var e = new AdditionExpression2(
-               new DoublieExpression2(1),
+               new DoubleExpression2(1),
                new AdditionExpression2(
-                       new DoublieExpression2(2),
-                       new DoublieExpression2(3)
+                       new DoubleExpression2(2),
+                       new DoubleExpression2(3)
                    )
                );
 
@@ -32,10 +32,10 @@ namespace DesignPatterns.Behavioral.Visitor
         //public abstract void Print(StringBuilder sb);
     }
 
-    public class DoublieExpression2 : Expression2
+    public class DoubleExpression2 : Expression2
     {
         public double Value; // neeed to be a public
-        public DoublieExpression2(double value)
+        public DoubleExpression2(double value)
         {
             Value = value;
         }
@@ -70,7 +70,7 @@ namespace DesignPatterns.Behavioral.Visitor
     {
         public static void Print(Expression2 e, StringBuilder sb)
         {
-            if(e is DoublieExpression2 de)
+            if(e is DoubleExpression2 de)
             {
                 sb.Append(de.Value);
             } else if(e is AdditionExpression2 ae)
@@ -88,9 +88,9 @@ namespace DesignPatterns.Behavioral.Visitor
         // no switch but you should add sub types here!
         private static DictType actions = new DictType
         {
-            [typeof(DoublieExpression2)] = (e, sb) =>
+            [typeof(DoubleExpression2)] = (e, sb) =>
             {
-                var de = (DoublieExpression2)e;
+                var de = (DoubleExpression2)e;
                 sb.Append(de.Value);
             },
             [typeof(AdditionExpression2)] = (e, sb) =>

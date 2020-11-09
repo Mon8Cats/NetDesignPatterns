@@ -7,7 +7,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            var obj = new ExpressionWithPublicProps();
+            var obj = new DoubleDispatchVisitor();
             obj.Run();
         }
     }

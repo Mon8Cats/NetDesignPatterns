@@ -11,10 +11,10 @@ namespace DesignPatterns.Behavioral.Visitor
         public void Run()
         {
             var e = new AdditionExpression(
-                new DoublieExpression(1),
+                new DoubleExpression(1),
                 new AdditionExpression(
-                        new DoublieExpression(2),
-                        new DoublieExpression(3)
+                        new DoubleExpression(2),
+                        new DoubleExpression(3)
                     )
                 );
 
@@ -29,10 +29,10 @@ namespace DesignPatterns.Behavioral.Visitor
         public abstract void Print(StringBuilder sb);
     }
 
-    public class DoublieExpression : Expression
+    public class DoubleExpression : Expression
     {
         private double _value;
-        public DoublieExpression(double value)
+        public DoubleExpression(double value)
         {
             _value = value;
         }
