@@ -1,0 +1,13 @@
+C:\SkWorks\SkProjects\NetDesignPatterns\DesignPatterns\obj\Debug\netcoreapp3.1\DesignPatterns.csprojAssemblyReference.cache
+C:\SkWorks\SkProjects\NetDesignPatterns\DesignPatterns\obj\Debug\netcoreapp3.1\DesignPatterns.AssemblyInfoInputs.cache
+C:\SkWorks\SkProjects\NetDesignPatterns\DesignPatterns\obj\Debug\netcoreapp3.1\DesignPatterns.AssemblyInfo.cs
+C:\SkWorks\SkProjects\NetDesignPatterns\DesignPatterns\obj\Debug\netcoreapp3.1\DesignPatterns.csproj.CoreCompileInputs.cache
+C:\SkWorks\SkProjects\NetDesignPatterns\DesignPatterns\bin\Debug\netcoreapp3.1\DesignPatterns.exe
+C:\SkWorks\SkProjects\NetDesignPatterns\DesignPatterns\bin\Debug\netcoreapp3.1\DesignPatterns.deps.json
+C:\SkWorks\SkProjects\NetDesignPatterns\DesignPatterns\bin\Debug\netcoreapp3.1\DesignPatterns.runtimeconfig.json
+C:\SkWorks\SkProjects\NetDesignPatterns\DesignPatterns\bin\Debug\netcoreapp3.1\DesignPatterns.runtimeconfig.dev.json
+C:\SkWorks\SkProjects\NetDesignPatterns\DesignPatterns\bin\Debug\netcoreapp3.1\DesignPatterns.dll
+C:\SkWorks\SkProjects\NetDesignPatterns\DesignPatterns\bin\Debug\netcoreapp3.1\DesignPatterns.pdb
+C:\SkWorks\SkProjects\NetDesignPatterns\DesignPatterns\obj\Debug\netcoreapp3.1\DesignPatterns.dll
+C:\SkWorks\SkProjects\NetDesignPatterns\DesignPatterns\obj\Debug\netcoreapp3.1\DesignPatterns.pdb
+C:\SkWorks\SkProjects\NetDesignPatterns\DesignPatterns\obj\Debug\netcoreapp3.1\DesignPatterns.genruntimeconfig.cache
